@@ -1,0 +1,125 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+h1{
+margin: auto;
+font-family: 'Urbanist', sans-serif;
+text-align: center;
+position: relative;
+background: linear-gradient(45deg,rgb(36, 36, 36), #815A5A);
+opacity: 0.8;
+color: white;
+padding: 4px;
+}
+
+body{
+background: url(https://images.unsplash.com/photo-1519327232521-1ea2c736d34d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+    
+
+img{
+display: flex;
+align-items: center;
+margin: auto;
+position: relative;
+display: block;
+padding: 20px;
+border: 0 solid black;
+border-radius: 7%;
+justify-content: center;
+}
+
+
+ul{
+font-family: 'Urbanist', sans-serif;
+color: white;
+text-align: center;
+margin: auto;
+position: relative;
+max-width: 100%;
+background:linear-gradient(45deg,rgb(36, 36, 36), #815A5A);
+opacity: 0.8;
+}
+
+
+.pad{
+text-align: center;
+position: relative;
+max-width: 100%;
+margin: auto;
+color: white;
+font-family: 'Urbanist', sans-serif;
+padding: 2px;
+text-shadow: 1px 1px 2px black;
+
+}
+
+.process{
+color: white;
+font-family: 'Urbanist', sans-serif;
+text-align: center;
+margin: auto;
+position: relative;
+max-width: 100%;
+background:linear-gradient(45deg,rgb(36, 36, 36), #815A5A);
+opacity: 0.8;
+}
+
+.ingredients{
+text-align: center;
+display: flex 3;
+align-items: center;
+box-sizing: border-box;
+padding: 7.5px;
+color: white;
+font-family: 'Urbanist', sans-serif;
+text-shadow: 1px 1px 2px black;
+width: 1200px;
+max-width: calc(100% - 30px);
+margin: 0 auto;
+padding: 0 10px;
+}
+
+h4{
+background:linear-gradient(45deg,rgb(36, 36, 36), #815A5A);
+color: white;
+font-family: 'Urbanist', sans-serif;
+font-size:40px;
+text-align: center;
+position: relative;
+margin: auto;
+cursor: pointer;
+background-clip: border-box;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}   
+    
+
+.pesto{
+background:linear-gradient(45deg,rgb(36, 36, 36), #815A5A);
+opacity: 0.9;
+color:white;
+text-align: center;
+font-family: 'Urbanist', sans-serif;
+margin: auto;
+}
+
+.chicken{
+display: flex 1;
+text-align: center;
+font-family: 'Urbanist', sans-serif;
+opacity: 1;
+color: white;
+width: 100%;
+padding: 20px;
+margin: auto;
+text-shadow: 1px 1px 2px black;
+font-size: 15px;
+}
+

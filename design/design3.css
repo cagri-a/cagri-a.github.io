@@ -1,0 +1,116 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+
+body{
+background: url(https://images.unsplash.com/photo-1519327232521-1ea2c736d34d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+
+
+
+
+h1{
+text-align: center;
+font-family: 'Urbanist', sans-serif;
+background: linear-gradient(45deg,rgb(36, 36, 36), #815A5A);
+opacity: 0.8;
+position: relative;
+color: #FFFFFF;
+margin: auto;
+cursor: pointer;
+}
+
+
+img{
+display: block;
+max-width: 100%;
+border: 0 solid black;
+border-radius: 5%;
+cursor: pointer;
+justify-content: center;
+margin: auto;
+padding: 20px;
+}
+
+
+/*------------ HEADINGS------------ */
+.dlgs{
+background:linear-gradient(45deg,rgb(36, 36, 36), #815A5A);
+opacity: 0.9;
+color:white;
+text-align: center;
+font-family: 'Urbanist', sans-serif;
+margin: auto;
+}
+
+
+/*------ DESCRIPTION SECTION------- */
+.dlggs{
+display: flex;
+text-align: center;
+font-family: 'Urbanist', sans-serif;
+opacity: 1;
+color: white;
+text-shadow: 1px 1px 2px black;
+font-size: 15px;
+position: relative;
+width: 1200px;
+max-width: calc(100% - 30px);
+margin: 0 auto;
+padding: 0 10px;
+
+}
+ 
+/*--------INGREDIENTS SECTION FOR LISTS--------*/
+.dlgss{
+text-align: center;
+position: relative;
+max-width: 100%;
+margin: auto;
+color: white;
+font-family: 'Urbanist', sans-serif;
+padding: 1.5px;
+text-shadow: 1px 1px 2px black;
+}
+
+
+
+/*------ COOKING PROCESS-------- */
+.dlgggs{
+text-align: center;
+margin: auto;
+display: block;
+box-sizing: border-box;
+padding: 5px;
+color: white;
+font-family: 'Urbanist', sans-serif;
+text-shadow: 1px 1px 2px black;
+width: 1200px;
+max-width: calc(100% - 30px);
+margin: 0 auto;
+padding: 0 10px;
+}
+
+
+
+h4{
+background:linear-gradient(45deg,rgb(36, 36, 36), #815A5A);
+color: white;
+font-family: 'Urbanist', sans-serif;
+font-size:40px;
+text-align: center;
+position: relative;
+margin: auto;
+cursor: pointer;
+background-clip: border-box;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}   
+      

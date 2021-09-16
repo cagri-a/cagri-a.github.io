@@ -1,0 +1,132 @@
+
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+
+body{
+background:url(https://images.unsplash.com/photo-1519327232521-1ea2c736d34d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
+
+}
+
+
+h1{
+display: flex 1;
+background: linear-gradient(45deg,rgb(27, 27, 27), #815A5A);
+color:#FFFFFF ;
+text-align: center;
+font-size: 35px;
+font-family: 'Urbanist', sans-serif;
+opacity: 0.9;
+text-shadow: 1px 1px black;
+cursor: pointer;
+margin: auto;
+padding: 40px;
+}
+
+h5{
+display: flex 2;
+color: white ;
+font-family: 'Urbanist', sans-serif;
+font-size: 15px;
+text-align:center;
+background: linear-gradient(45deg,#BA7C7C, #815A5A);
+opacity: 0.7;
+cursor: pointer;
+margin: auto;
+padding: 20px;
+}
+
+
+img{
+display: flex 3;
+display: block;
+max-width: 100%;
+border-radius:5%;
+cursor: pointer;
+margin: auto;
+align-items: center;
+padding: 15px;
+}
+
+
+#first{
+text-align: center;
+font-size: 24px;
+font-family: 'Urbanist', sans-serif;
+color: white;
+text-shadow: 1px 1px black;
+cursor: grab;
+padding: 10px;
+}
+
+#second{
+display: flex 4;
+text-align: center;
+font-size: 15px;
+font-family: 'Urbanist', sans-serif;
+border: none;
+border-radius: 50px;
+width: 15%;
+position: relative;
+top: 15px;
+margin: auto;
+background: linear-gradient(45deg,#282828, #3F3F3F );
+opacity: 0.7;
+padding: 4px;
+}
+
+#third{
+display: flex 5;
+text-align: center;
+font-size: 15px;
+font-family: 'Urbanist', sans-serif;
+border: none;
+border-radius: 40px;
+width: 15%;
+position: relative;
+top: 30px;
+margin: auto;
+background: linear-gradient(45deg,#282828, #3F3F3F );
+opacity: 0.7;
+padding: 4px;
+}
+
+
+#fourth{
+    display: flex 6;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Urbanist', sans-serif;
+    border: none;
+    border-radius: 40px;
+    width: 15%;
+    position: relative;
+    top: 45px;
+    margin: auto;
+    background: linear-gradient(45deg,#282828, #3F3F3F );
+    opacity: 0.7;
+    padding: 4px;
+}
+
+
+
+#links{
+text-decoration: none;
+color: white;
+}
+
+#second:hover{
+background: linear-gradient(45deg,#BA7C7C, #815A5A)  ;
+}
+
+
+#third:hover{
+background: linear-gradient(45deg,#BA7C7C, #815A5A)  ;
+}
+
+#fourth:hover{
+background: linear-gradient(45deg,#BA7C7C, #815A5A)  ;  
+}
